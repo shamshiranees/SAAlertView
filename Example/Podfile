@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SAAlertView_Example' do
+  pod 'SAAlertView', :path => '../'
+
+  target 'SAAlertView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
