@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2D79EFB7EDCBB95BF65F055D9F4CFA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51B960F51FF39CEE000C3A06 /* SAAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B960F41FF39CEE000C3A06 /* SAAlertView.swift */; };
 		5799B015B0A7BFE3BC0EC44A0030E773 /* SAAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD50575AA7EADCA3A228B44A13055B4 /* SAAlertView-dummy.m */; };
 		63E89BE27FA2C431EC5B6E3615A28464 /* Pods-SAAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7367233E13FB2BF90900FC09FDE7F405 /* Pods-SAAlertView_Example-dummy.m */; };
 		642F3AAD65C5612179EFC4B0A9EC2FC4 /* Pods-SAAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1B0860EBD8C22F6301C6C2D49DCBE5 /* Pods-SAAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6552D6B2F09696A1DD68BF371F0C83B6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C076ED91027F25CEB66E508BDB570000 /* ReplaceMe.swift */; };
 		70B880A314E4C0F1D96084FCDBF1105C /* Pods-SAAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA036A0795E26D1B2DEC7832FB3154 /* Pods-SAAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91A30260F8F685C70573FE18C58F89FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9859E4021B79BEBD8379A5F54F1CAE81 /* Pods-SAAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467CA62B03094135572A2B004A96E130 /* Pods-SAAlertView_Tests-dummy.m */; };
@@ -31,17 +31,18 @@
 
 /* Begin PBXFileReference section */
 		07D1E4E10B158EF525859E97B81F79CB /* Pods-SAAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A853EEC1CFC605735C9A986412F797C /* Pods-SAAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SAAlertView_Tests.modulemap"; sourceTree = "<group>"; };
+		0A853EEC1CFC605735C9A986412F797C /* Pods-SAAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		13B857D04F0D43666C439889DF495D8D /* Pods-SAAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1677D44AF76C7F903B95A2E2A821E258 /* SAAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAAlertView.xcconfig; sourceTree = "<group>"; };
-		16F125D8A453D43844A6CD529B2E0C2A /* Pods-SAAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SAAlertView_Example.modulemap"; sourceTree = "<group>"; };
+		16F125D8A453D43844A6CD529B2E0C2A /* Pods-SAAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		173A7BC4C7EF0AC93617F8C7AD9D5F75 /* Pods-SAAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		348609C91EF5D343D77079689A55CF91 /* Pods_SAAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAAlertView_Tests.framework; path = "Pods-SAAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		348609C91EF5D343D77079689A55CF91 /* Pods_SAAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E2273EDE654F3E3C91CE401996D32 /* SAAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-prefix.pch"; sourceTree = "<group>"; };
 		3AD50575AA7EADCA3A228B44A13055B4 /* SAAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAAlertView-dummy.m"; sourceTree = "<group>"; };
 		3C1B0860EBD8C22F6301C6C2D49DCBE5 /* Pods-SAAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		467CA62B03094135572A2B004A96E130 /* Pods-SAAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E8B18FC6A0FD910802D28B441FFCF55 /* Pods-SAAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		51B960F41FF39CEE000C3A06 /* SAAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SAAlertView.swift; path = SAAlertView/Classes/SAAlertView.swift; sourceTree = "<group>"; };
 		5239F02A3861C10AF55DD801F66F0276 /* Pods-SAAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Example-resources.sh"; sourceTree = "<group>"; };
 		604A657AF0DF227B6B91A40323A2C3B6 /* Pods-SAAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,15 +50,14 @@
 		6ECA036A0795E26D1B2DEC7832FB3154 /* Pods-SAAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7367233E13FB2BF90900FC09FDE7F405 /* Pods-SAAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		7E6516E656D4DBD6BFD5FAA4842E0E36 /* Pods-SAAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9603797AB4552CE39E134F8982860C94 /* SAAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SAAlertView.modulemap; sourceTree = "<group>"; };
-		966CFC13188CE0396D8C0F13366CB299 /* Pods_SAAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAAlertView_Example.framework; path = "Pods-SAAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C2420FED01C2374167E995E30C22A55 /* SAAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAAlertView.framework; path = SAAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9603797AB4552CE39E134F8982860C94 /* SAAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAAlertView.modulemap; sourceTree = "<group>"; };
+		966CFC13188CE0396D8C0F13366CB299 /* Pods_SAAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2420FED01C2374167E995E30C22A55 /* SAAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A2A8616CD87735F1CEFA3E313BF2F2 /* SAAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-umbrella.h"; sourceTree = "<group>"; };
 		B15F004F2F34655D72971787BA9E671E /* Pods-SAAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B5D9263460EF4987188F31F0F477C3A7 /* Pods-SAAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B690C02BB6B4180BB0CC3AFE43483F1C /* Pods-SAAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C076ED91027F25CEB66E508BDB570000 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SAAlertView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		C777DA715C268BCF6311B353D708F8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78B78D0E05C94D346478A3E2C30A4DE /* Pods-SAAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
 		CB0D490C1E8E3C193EE996A4C3CE2630 /* Pods-SAAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -137,8 +137,8 @@
 		3D23A98EC53E325B394C148F5016DFEF /* SAAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				C076ED91027F25CEB66E508BDB570000 /* ReplaceMe.swift */,
 				3087B8FCDF94D4390357CDE15934E9BB /* Support Files */,
+				51B960F41FF39CEE000C3A06 /* SAAlertView.swift */,
 			);
 			name = SAAlertView;
 			path = ../..;
@@ -296,6 +296,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					17D3CD0F0EBFBB6065F09D746502997F = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -321,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6552D6B2F09696A1DD68BF371F0C83B6 /* ReplaceMe.swift in Sources */,
 				5799B015B0A7BFE3BC0EC44A0030E773 /* SAAlertView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63E89BE27FA2C431EC5B6E3615A28464 /* Pods-SAAlertView_Example-dummy.m in Sources */,
+				51B960F51FF39CEE000C3A06 /* SAAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 13B857D04F0D43666C439889DF495D8D /* Pods-SAAlertView_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -592,6 +598,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5D9263460EF4987188F31F0F477C3A7 /* Pods-SAAlertView_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -659,6 +667,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

@@ -22,7 +22,7 @@ pod 'SAAlertView'
 
 ## Author
 
-smzranz@gmail.com, shamshir.anees@citrusinformatics.com
+shamshir.anees@gmail.com
 
 ## License
 
