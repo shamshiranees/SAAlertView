@@ -1,0 +1,6 @@
+framework module SAAlertView {
+  umbrella header "SAAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
