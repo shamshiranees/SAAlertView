@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SAAlertView
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,30 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func alert(_ sender: Any) {
+        SAAlertView.alertView("Alert Title")
+        
+        
+    }
+    
+    
+    
+    @IBAction func alertWithMessage(_ sender: Any) {
+        
+      SAAlertView.alertView("Warning", message: "type you message here")
+        
+    }
+    
+    
+    @IBAction func alertAction(_ sender: Any) {
+        
+         SAAlertView.alertView("Waring", message: "type your message", buttonTitle: "retry", buttonAction: reload())
+    }
+    
+    func reload(){
+        print("Reload")
+        
+    }
 }
 

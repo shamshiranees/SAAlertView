@@ -1,25 +1,72 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="SAAlertView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgI-sQ-eCS">
+                                <rect key="frame" x="50" y="397" width="275" height="40"/>
+                                <state key="normal" title="Alert"/>
+                                <connections>
+                                    <action selector="alert:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EgA-Xu-pOb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1o-Fp-E7u">
+                                <rect key="frame" x="50" y="472" width="275" height="40"/>
+                                <state key="normal" title="Alert with message"/>
+                                <connections>
+                                    <action selector="alertWithMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aU0-Wt-IgO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7F-oK-LF3">
+                                <rect key="frame" x="50" y="547" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GnR-M8-cU9"/>
+                                </constraints>
+                                <state key="normal" title="Alert with action"/>
+                                <connections>
+                                    <action selector="alertAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="40s-rr-XG9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="v1o-Fp-E7u" firstAttribute="leading" secondItem="C7F-oK-LF3" secondAttribute="leading" id="Ca2-5g-3aW"/>
+                            <constraint firstItem="C7F-oK-LF3" firstAttribute="top" secondItem="v1o-Fp-E7u" secondAttribute="bottom" constant="35" id="CiC-vG-iGP"/>
+                            <constraint firstItem="ZgI-sQ-eCS" firstAttribute="trailing" secondItem="v1o-Fp-E7u" secondAttribute="trailing" id="DoB-Xj-D9F"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="C7F-oK-LF3" secondAttribute="bottom" constant="80" id="E5f-cL-Uqb"/>
+                            <constraint firstItem="v1o-Fp-E7u" firstAttribute="top" secondItem="ZgI-sQ-eCS" secondAttribute="bottom" constant="35" id="EBF-xX-cUA"/>
+                            <constraint firstItem="v1o-Fp-E7u" firstAttribute="trailing" secondItem="C7F-oK-LF3" secondAttribute="trailing" id="Krn-tP-PUF"/>
+                            <constraint firstItem="ZgI-sQ-eCS" firstAttribute="height" secondItem="v1o-Fp-E7u" secondAttribute="height" id="Nkd-BR-jha"/>
+                            <constraint firstItem="v1o-Fp-E7u" firstAttribute="height" secondItem="C7F-oK-LF3" secondAttribute="height" id="QEX-LM-rBp"/>
+                            <constraint firstItem="v1o-Fp-E7u" firstAttribute="width" secondItem="C7F-oK-LF3" secondAttribute="width" id="gfx-1t-EVW"/>
+                            <constraint firstAttribute="trailing" secondItem="C7F-oK-LF3" secondAttribute="trailing" constant="50" id="h6B-ZS-ySt"/>
+                            <constraint firstItem="ZgI-sQ-eCS" firstAttribute="leading" secondItem="v1o-Fp-E7u" secondAttribute="leading" id="nu5-j1-iZz"/>
+                            <constraint firstItem="C7F-oK-LF3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="ofU-LY-EAV"/>
+                            <constraint firstItem="ZgI-sQ-eCS" firstAttribute="width" secondItem="v1o-Fp-E7u" secondAttribute="width" id="vI9-1N-egE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="28.335832083958024"/>
         </scene>
     </scenes>
 </document>
