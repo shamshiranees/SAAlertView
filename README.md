@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SAAlertView.svg?style=flat)](http://cocoapods.org/pods/SAAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/SAAlertView.svg?style=flat)](http://cocoapods.org/pods/SAAlertView)
 
+## ScreenShots
+
+![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/alert.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

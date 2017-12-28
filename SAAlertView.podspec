@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/shamshiranees/SAAlertView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.screenshots     = 'https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/alert.png', 'https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/multipleButtons.png','https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/actionSheet.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shamshir.anees@gmail.com' => 'shamshir.anees@gmail.com' }
   s.source           = { :git => 'https://github.com/shamshiranees/SAAlertView.git', :tag => s.version.to_s }
