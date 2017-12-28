@@ -7,7 +7,9 @@
 
 ## ScreenShots
 
-![ScreenShot]()
+![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/alert.png)
+![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/multipleButtons.png)
+![ScreenShot](https://raw.githubusercontent.com/shamshiranees/SAAlertView/master/Example/SAAlertView/actionSheet.png)
 
 ## Example
 
