@@ -53,6 +53,50 @@ import UIKit
           
         })
     }
+    
+    open class func multipleAlertView(title:String,message:String,buttonTitles:[String],completion: @escaping (Int)->()) {
+    
+    let alertVC = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.alert)
+        for i in 0...buttonTitles.count-1{
+            
+    let acceptButton = UIAlertAction(title: buttonTitles[i], style: .default, handler: { (action: UIAlertAction) in
+        completion(i)
+    })
+            
+    alertVC.addAction(acceptButton)
+        }
+    
+    mainInstance.currentViewController()?.present(alertVC, animated: true, completion: nil)
+    
+    
+    }
+    
+    
+    
+    open class func actionSheet(title:String,buttonTitles:[String],completion: @escaping (Int)->()){
+        
+        
+        let actionSheetController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
+        
+       
+        
+        for i in 0...buttonTitles.count-1{
+        let actionButton: UIAlertAction = UIAlertAction(title: buttonTitles[i], style: .default) { action -> Void in
+            
+            completion(i)
+        }
+            
+           actionSheetController.addAction(actionButton)
+            
+        }
+        
+        
+        let cancelAction: UIAlertAction = UIAlertAction(title: "Cancel", style: .cancel) { action -> Void in }
+        actionSheetController.addAction(cancelAction)
+       
+        mainInstance.currentViewController()?.present(actionSheetController, animated: true, completion: nil)
+    }
+    
 }
 
 

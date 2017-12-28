@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D79EFB7EDCBB95BF65F055D9F4CFA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		51B960F51FF39CEE000C3A06 /* SAAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B960F41FF39CEE000C3A06 /* SAAlertView.swift */; };
-		5799B015B0A7BFE3BC0EC44A0030E773 /* SAAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD50575AA7EADCA3A228B44A13055B4 /* SAAlertView-dummy.m */; };
+		25D01FDE9D596603D73B72693DBE9BAF /* SAAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19151C55538E2619518779A0DC6AB3EC /* SAAlertView-dummy.m */; };
+		2D79EFB7EDCBB95BF65F055D9F4CFA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4C76009B52083F2CD246C1115417DE51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		63E89BE27FA2C431EC5B6E3615A28464 /* Pods-SAAlertView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7367233E13FB2BF90900FC09FDE7F405 /* Pods-SAAlertView_Example-dummy.m */; };
 		642F3AAD65C5612179EFC4B0A9EC2FC4 /* Pods-SAAlertView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C1B0860EBD8C22F6301C6C2D49DCBE5 /* Pods-SAAlertView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		70B880A314E4C0F1D96084FCDBF1105C /* Pods-SAAlertView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ECA036A0795E26D1B2DEC7832FB3154 /* Pods-SAAlertView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91A30260F8F685C70573FE18C58F89FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8EF532C75DECCA296D6B5C51B84FA393 /* SAAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2C072F58DE1E91BB4ABE82DA16A8D /* SAAlertView.swift */; };
 		9859E4021B79BEBD8379A5F54F1CAE81 /* Pods-SAAlertView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 467CA62B03094135572A2B004A96E130 /* Pods-SAAlertView_Tests-dummy.m */; };
-		A2E616F745BAF7C43E610687448861A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E7F3CA19B56D1D1CC5C80C0E33A14A1A /* SAAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A2A8616CD87735F1CEFA3E313BF2F2 /* SAAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E616F745BAF7C43E610687448861A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D7D3B69136EB190A33CB99471BC22C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E7F3CA19B56D1D1CC5C80C0E33A14A1A /* SAAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2FF21504F5421E2F7B24F4921277C3 /* SAAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,45 +32,47 @@
 
 /* Begin PBXFileReference section */
 		07D1E4E10B158EF525859E97B81F79CB /* Pods-SAAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0A853EEC1CFC605735C9A986412F797C /* Pods-SAAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAAlertView_Tests.modulemap"; sourceTree = "<group>"; };
+		0A853EEC1CFC605735C9A986412F797C /* Pods-SAAlertView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SAAlertView_Tests.modulemap"; sourceTree = "<group>"; };
 		13B857D04F0D43666C439889DF495D8D /* Pods-SAAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1677D44AF76C7F903B95A2E2A821E258 /* SAAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAAlertView.xcconfig; sourceTree = "<group>"; };
-		16F125D8A453D43844A6CD529B2E0C2A /* Pods-SAAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SAAlertView_Example.modulemap"; sourceTree = "<group>"; };
+		16F125D8A453D43844A6CD529B2E0C2A /* Pods-SAAlertView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SAAlertView_Example.modulemap"; sourceTree = "<group>"; };
 		173A7BC4C7EF0AC93617F8C7AD9D5F75 /* Pods-SAAlertView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAlertView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		348609C91EF5D343D77079689A55CF91 /* Pods_SAAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A3E2273EDE654F3E3C91CE401996D32 /* SAAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-prefix.pch"; sourceTree = "<group>"; };
-		3AD50575AA7EADCA3A228B44A13055B4 /* SAAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAAlertView-dummy.m"; sourceTree = "<group>"; };
+		19151C55538E2619518779A0DC6AB3EC /* SAAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAAlertView-dummy.m"; sourceTree = "<group>"; };
+		199226EFEB0949E5773BAB42AB3767AD /* SAAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SAAlertView.modulemap; sourceTree = "<group>"; };
+		21450FAD05F9E97F4C719E5A97E9C63B /* SAAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-prefix.pch"; sourceTree = "<group>"; };
+		348609C91EF5D343D77079689A55CF91 /* Pods_SAAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAAlertView_Tests.framework; path = "Pods-SAAlertView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1B0860EBD8C22F6301C6C2D49DCBE5 /* Pods-SAAlertView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAAlertView_Example-umbrella.h"; sourceTree = "<group>"; };
 		467CA62B03094135572A2B004A96E130 /* Pods-SAAlertView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAlertView_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E8B18FC6A0FD910802D28B441FFCF55 /* Pods-SAAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		51B960F41FF39CEE000C3A06 /* SAAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SAAlertView.swift; path = SAAlertView/Classes/SAAlertView.swift; sourceTree = "<group>"; };
 		5239F02A3861C10AF55DD801F66F0276 /* Pods-SAAlertView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Example-resources.sh"; sourceTree = "<group>"; };
 		604A657AF0DF227B6B91A40323A2C3B6 /* Pods-SAAlertView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAlertView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6BED7672E39010A1977BAD6DDB92BB65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ECA036A0795E26D1B2DEC7832FB3154 /* Pods-SAAlertView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SAAlertView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7367233E13FB2BF90900FC09FDE7F405 /* Pods-SAAlertView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SAAlertView_Example-dummy.m"; sourceTree = "<group>"; };
 		7E6516E656D4DBD6BFD5FAA4842E0E36 /* Pods-SAAlertView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SAAlertView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9603797AB4552CE39E134F8982860C94 /* SAAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAAlertView.modulemap; sourceTree = "<group>"; };
-		966CFC13188CE0396D8C0F13366CB299 /* Pods_SAAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C2420FED01C2374167E995E30C22A55 /* SAAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3A2A8616CD87735F1CEFA3E313BF2F2 /* SAAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		966CFC13188CE0396D8C0F13366CB299 /* Pods_SAAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SAAlertView_Example.framework; path = "Pods-SAAlertView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2420FED01C2374167E995E30C22A55 /* SAAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SAAlertView.framework; path = SAAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2FF21504F5421E2F7B24F4921277C3 /* SAAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAAlertView-umbrella.h"; sourceTree = "<group>"; };
+		9F3D1ACBD9EA856ACA363AAC5D7C1948 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B15F004F2F34655D72971787BA9E671E /* Pods-SAAlertView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SAAlertView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B5D9263460EF4987188F31F0F477C3A7 /* Pods-SAAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SAAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B690C02BB6B4180BB0CC3AFE43483F1C /* Pods-SAAlertView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C6CB7099C01FC471D76307943ECB8BF5 /* SAAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAAlertView.xcconfig; sourceTree = "<group>"; };
 		C777DA715C268BCF6311B353D708F8A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78B78D0E05C94D346478A3E2C30A4DE /* Pods-SAAlertView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Tests-resources.sh"; sourceTree = "<group>"; };
 		CB0D490C1E8E3C193EE996A4C3CE2630 /* Pods-SAAlertView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SAAlertView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FED656BD38801B68648A4D1630450EB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DBF2C072F58DE1E91BB4ABE82DA16A8D /* SAAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SAAlertView.swift; path = SAAlertView/Classes/SAAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5E6E5206357931B9A501E30395AC635 /* Frameworks */ = {
+		B91D59565772558767CB434FDCF1E213 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91A30260F8F685C70573FE18C58F89FB /* Foundation.framework in Frameworks */,
+				D7D3B69136EB190A33CB99471BC22C33 /* Foundation.framework in Frameworks */,
+				4C76009B52083F2CD246C1115417DE51 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13DFE6D93984B07CBE068F178E0D1D66 /* SAAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				DBF2C072F58DE1E91BB4ABE82DA16A8D /* SAAlertView.swift */,
+				E9CAC41231B773DB27BE99C21766F1AF /* Support Files */,
+			);
+			name = SAAlertView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		2550F134FA003A874AE6407E8E77B386 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,20 +113,6 @@
 				9C2420FED01C2374167E995E30C22A55 /* SAAlertView.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3087B8FCDF94D4390357CDE15934E9BB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FED656BD38801B68648A4D1630450EB9 /* Info.plist */,
-				9603797AB4552CE39E134F8982860C94 /* SAAlertView.modulemap */,
-				1677D44AF76C7F903B95A2E2A821E258 /* SAAlertView.xcconfig */,
-				3AD50575AA7EADCA3A228B44A13055B4 /* SAAlertView-dummy.m */,
-				3A3E2273EDE654F3E3C91CE401996D32 /* SAAlertView-prefix.pch */,
-				A3A2A8616CD87735F1CEFA3E313BF2F2 /* SAAlertView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SAAlertView";
 			sourceTree = "<group>";
 		};
 		325F003907804D1667379E798C3F46AF /* Pods-SAAlertView_Example */ = {
@@ -134,14 +133,21 @@
 			path = "Target Support Files/Pods-SAAlertView_Example";
 			sourceTree = "<group>";
 		};
-		3D23A98EC53E325B394C148F5016DFEF /* SAAlertView */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3087B8FCDF94D4390357CDE15934E9BB /* Support Files */,
-				51B960F41FF39CEE000C3A06 /* SAAlertView.swift */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = SAAlertView;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		4D8BA06A1B516E18EA6440A0D0FA286C /* Targets Support Files */ = {
@@ -156,7 +162,7 @@
 		65EB993820E80952BFCA6BEB72471B71 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3D23A98EC53E325B394C148F5016DFEF /* SAAlertView */,
+				13DFE6D93984B07CBE068F178E0D1D66 /* SAAlertView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -166,7 +172,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				65EB993820E80952BFCA6BEB72471B71 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				2550F134FA003A874AE6407E8E77B386 /* Products */,
 				4D8BA06A1B516E18EA6440A0D0FA286C /* Targets Support Files */,
 			);
@@ -190,20 +196,18 @@
 			path = "Target Support Files/Pods-SAAlertView_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E9CAC41231B773DB27BE99C21766F1AF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				9F3D1ACBD9EA856ACA363AAC5D7C1948 /* Info.plist */,
+				199226EFEB0949E5773BAB42AB3767AD /* SAAlertView.modulemap */,
+				C6CB7099C01FC471D76307943ECB8BF5 /* SAAlertView.xcconfig */,
+				19151C55538E2619518779A0DC6AB3EC /* SAAlertView-dummy.m */,
+				21450FAD05F9E97F4C719E5A97E9C63B /* SAAlertView-prefix.pch */,
+				9C2FF21504F5421E2F7B24F4921277C3 /* SAAlertView-umbrella.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SAAlertView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +262,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 857E7985552035A97726A199AC6D0F5C /* Build configuration list for PBXNativeTarget "SAAlertView" */;
 			buildPhases = (
-				6B2327DAF132C8179A25A69D336FD766 /* Sources */,
-				D5E6E5206357931B9A501E30395AC635 /* Frameworks */,
+				E49D23B2692F3D7DE9282578FC6A498A /* Sources */,
+				B91D59565772558767CB434FDCF1E213 /* Frameworks */,
 				A93EEDE48CA2B63CD6A228ECF4A7D069 /* Headers */,
 			);
 			buildRules = (
@@ -296,11 +300,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					17D3CD0F0EBFBB6065F09D746502997F = {
-						LastSwiftMigration = 0910;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,14 +321,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6B2327DAF132C8179A25A69D336FD766 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5799B015B0A7BFE3BC0EC44A0030E773 /* SAAlertView-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C51C838D877A85A79380650334FF9F55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,12 +329,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E49D23B2692F3D7DE9282578FC6A498A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D01FDE9D596603D73B72693DBE9BAF /* SAAlertView-dummy.m in Sources */,
+				8EF532C75DECCA296D6B5C51B84FA393 /* SAAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E899075CA038420AE42B5E7AE31696E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63E89BE27FA2C431EC5B6E3615A28464 /* Pods-SAAlertView_Example-dummy.m in Sources */,
-				51B960F51FF39CEE000C3A06 /* SAAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +358,39 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+		7466B9E0BA5DEC19A312A6499103B00D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6CB7099C01FC471D76307943ECB8BF5 /* SAAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SAAlertView/SAAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAAlertView/SAAlertView.modulemap";
+				PRODUCT_NAME = SAAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,9 +450,9 @@
 			};
 			name = Debug;
 		};
-		4E3A0D9120208295D16112BD55B16170 /* Debug */ = {
+		81C7DB2F70E34DCB749064DC8CC0D6C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1677D44AF76C7F903B95A2E2A821E258 /* SAAlertView.xcconfig */;
+			baseConfigurationReference = B5D9263460EF4987188F31F0F477C3A7 /* Pods-SAAlertView_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -432,25 +463,127 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SAAlertView/SAAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SAAlertView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SAAlertView/SAAlertView.modulemap";
-				PRODUCT_NAME = SAAlertView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SAAlertView_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+		86193A41A39948137334BCFB17459B27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B857D04F0D43666C439889DF495D8D /* Pods-SAAlertView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SAAlertView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		921A7B661B4D1C2B13085CCEB5057745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8B18FC6A0FD910802D28B441FFCF55 /* Pods-SAAlertView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SAAlertView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96EC405C38C84EDEAC1B486A85C9C6E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D1E4E10B158EF525859E97B81F79CB /* Pods-SAAlertView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SAAlertView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -496,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
@@ -505,110 +638,9 @@
 			};
 			name = Release;
 		};
-		872F29D152969181024137E5F1C4A4CD /* Debug */ = {
+		D783F6EF89962A1082C1C06807B0B865 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07D1E4E10B158EF525859E97B81F79CB /* Pods-SAAlertView_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAAlertView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F5A16CB7A7B89A9F3E7B5FA2C21722E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8B18FC6A0FD910802D28B441FFCF55 /* Pods-SAAlertView_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAAlertView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		90FA01E62B17D4401DA9E03839F99CC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13B857D04F0D43666C439889DF495D8D /* Pods-SAAlertView_Example.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAAlertView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D24B8721378CB7C2EB036288867FD50F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1677D44AF76C7F903B95A2E2A821E258 /* SAAlertView.xcconfig */;
+			baseConfigurationReference = C6CB7099C01FC471D76307943ECB8BF5 /* SAAlertView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,52 +654,15 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SAAlertView/SAAlertView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SAAlertView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SAAlertView/SAAlertView.modulemap";
 				PRODUCT_NAME = SAAlertView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF205495D673740156A3C03FDA18A004 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5D9263460EF4987188F31F0F477C3A7 /* Pods-SAAlertView_Example.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SAAlertView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SAAlertView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -680,8 +675,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
-				731DC216E1A58545B559F6E0A2418060 /* Release */,
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -689,8 +684,8 @@
 		5FEE27BAE99245995B424C4E31E05359 /* Build configuration list for PBXNativeTarget "Pods-SAAlertView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				872F29D152969181024137E5F1C4A4CD /* Debug */,
-				8F5A16CB7A7B89A9F3E7B5FA2C21722E /* Release */,
+				96EC405C38C84EDEAC1B486A85C9C6E6 /* Debug */,
+				921A7B661B4D1C2B13085CCEB5057745 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -698,8 +693,8 @@
 		7433A0B3AF824F2B3463C89FED21B90A /* Build configuration list for PBXNativeTarget "Pods-SAAlertView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF205495D673740156A3C03FDA18A004 /* Debug */,
-				90FA01E62B17D4401DA9E03839F99CC4 /* Release */,
+				81C7DB2F70E34DCB749064DC8CC0D6C4 /* Debug */,
+				86193A41A39948137334BCFB17459B27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -707,8 +702,8 @@
 		857E7985552035A97726A199AC6D0F5C /* Build configuration list for PBXNativeTarget "SAAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4E3A0D9120208295D16112BD55B16170 /* Debug */,
-				D24B8721378CB7C2EB036288867FD50F /* Release */,
+				D783F6EF89962A1082C1C06807B0B865 /* Debug */,
+				7466B9E0BA5DEC19A312A6499103B00D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

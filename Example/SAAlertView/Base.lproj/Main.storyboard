@@ -22,21 +22,21 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZgI-sQ-eCS">
-                                <rect key="frame" x="50" y="397" width="275" height="40"/>
+                                <rect key="frame" x="50" y="247" width="275" height="40"/>
                                 <state key="normal" title="Alert"/>
                                 <connections>
                                     <action selector="alert:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EgA-Xu-pOb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1o-Fp-E7u">
-                                <rect key="frame" x="50" y="472" width="275" height="40"/>
+                                <rect key="frame" x="50" y="322" width="275" height="40"/>
                                 <state key="normal" title="Alert with message"/>
                                 <connections>
                                     <action selector="alertWithMessage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aU0-Wt-IgO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7F-oK-LF3">
-                                <rect key="frame" x="50" y="547" width="275" height="40"/>
+                                <rect key="frame" x="50" y="397" width="275" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GnR-M8-cU9"/>
                                 </constraints>
@@ -45,22 +45,48 @@
                                     <action selector="alertAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="40s-rr-XG9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qia-Dl-ZUt">
+                                <rect key="frame" x="50" y="547" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8Uh-mG-Oes"/>
+                                </constraints>
+                                <state key="normal" title="ActionSheet"/>
+                                <connections>
+                                    <action selector="actionSheet:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dOI-8w-2eq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oob-6G-Esj">
+                                <rect key="frame" x="50" y="472" width="275" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="SAc-H3-gFo"/>
+                                </constraints>
+                                <state key="normal" title="Multiple button"/>
+                                <connections>
+                                    <action selector="multipleButtons:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="IfI-Pz-55C"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="oob-6G-Esj" firstAttribute="trailing" secondItem="C7F-oK-LF3" secondAttribute="trailing" id="3Ys-Ic-bIL"/>
                             <constraint firstItem="v1o-Fp-E7u" firstAttribute="leading" secondItem="C7F-oK-LF3" secondAttribute="leading" id="Ca2-5g-3aW"/>
                             <constraint firstItem="C7F-oK-LF3" firstAttribute="top" secondItem="v1o-Fp-E7u" secondAttribute="bottom" constant="35" id="CiC-vG-iGP"/>
                             <constraint firstItem="ZgI-sQ-eCS" firstAttribute="trailing" secondItem="v1o-Fp-E7u" secondAttribute="trailing" id="DoB-Xj-D9F"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="C7F-oK-LF3" secondAttribute="bottom" constant="80" id="E5f-cL-Uqb"/>
                             <constraint firstItem="v1o-Fp-E7u" firstAttribute="top" secondItem="ZgI-sQ-eCS" secondAttribute="bottom" constant="35" id="EBF-xX-cUA"/>
                             <constraint firstItem="v1o-Fp-E7u" firstAttribute="trailing" secondItem="C7F-oK-LF3" secondAttribute="trailing" id="Krn-tP-PUF"/>
                             <constraint firstItem="ZgI-sQ-eCS" firstAttribute="height" secondItem="v1o-Fp-E7u" secondAttribute="height" id="Nkd-BR-jha"/>
                             <constraint firstItem="v1o-Fp-E7u" firstAttribute="height" secondItem="C7F-oK-LF3" secondAttribute="height" id="QEX-LM-rBp"/>
+                            <constraint firstItem="Qia-Dl-ZUt" firstAttribute="trailing" secondItem="oob-6G-Esj" secondAttribute="trailing" id="R82-X1-YRU"/>
+                            <constraint firstItem="Qia-Dl-ZUt" firstAttribute="top" secondItem="oob-6G-Esj" secondAttribute="bottom" constant="35" id="af8-yX-nSx"/>
+                            <constraint firstItem="Qia-Dl-ZUt" firstAttribute="leading" secondItem="oob-6G-Esj" secondAttribute="leading" id="czP-sV-D7O"/>
+                            <constraint firstItem="oob-6G-Esj" firstAttribute="top" secondItem="C7F-oK-LF3" secondAttribute="bottom" constant="35" id="eqp-pw-GaK"/>
                             <constraint firstItem="v1o-Fp-E7u" firstAttribute="width" secondItem="C7F-oK-LF3" secondAttribute="width" id="gfx-1t-EVW"/>
                             <constraint firstAttribute="trailing" secondItem="C7F-oK-LF3" secondAttribute="trailing" constant="50" id="h6B-ZS-ySt"/>
                             <constraint firstItem="ZgI-sQ-eCS" firstAttribute="leading" secondItem="v1o-Fp-E7u" secondAttribute="leading" id="nu5-j1-iZz"/>
                             <constraint firstItem="C7F-oK-LF3" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="50" id="ofU-LY-EAV"/>
+                            <constraint firstItem="oob-6G-Esj" firstAttribute="leading" secondItem="C7F-oK-LF3" secondAttribute="leading" id="qO8-x5-YsH"/>
                             <constraint firstItem="ZgI-sQ-eCS" firstAttribute="width" secondItem="v1o-Fp-E7u" secondAttribute="width" id="vI9-1N-egE"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Qia-Dl-ZUt" secondAttribute="bottom" constant="80" id="wec-xS-Tn6"/>
                         </constraints>
                     </view>
                 </viewController>

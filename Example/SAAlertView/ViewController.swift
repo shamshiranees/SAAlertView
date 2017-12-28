@@ -24,6 +24,8 @@ class ViewController: UIViewController {
     @IBAction func alert(_ sender: Any) {
         SAAlertView.alertView("Alert Title")
         
+       
+        
         
     }
     
@@ -38,12 +40,46 @@ class ViewController: UIViewController {
     
     @IBAction func alertAction(_ sender: Any) {
         
-         SAAlertView.alertView("Waring", message: "type your message", buttonTitle: "retry", buttonAction: reload())
+         SAAlertView.alertView("Waring", message: "type your message", buttonTitle: "retry", buttonAction: reload)
     }
     
     func reload(){
         print("Reload")
         
     }
+    
+    
+    
+    @IBAction func multipleButtons(_ sender: Any) {
+        
+        SAAlertView.multipleAlertView(title: "Question",message:"select a option",buttonTitles:["a","b","c","d","a","b","c","d"]) { (indexOfButton) in
+            if indexOfButton == 0{
+                print("a")
+            }
+            else if indexOfButton == 1{
+                 print("b")
+            }else{
+                
+                print("button clicked")
+            }
+        }
+    }
+    
+    @IBAction func actionSheet(_ sender: Any) {
+        
+        
+        SAAlertView.actionSheet(title: "options",buttonTitles:["a","b","c","d","a","b","c","d"]) { (indexOfButton) in
+            if indexOfButton == 0{
+                print("a")
+            }
+            else if indexOfButton == 1{
+                print("b")
+            }else{
+                
+                print("button clicked")
+            }
+        }
+    }
+    
 }
 

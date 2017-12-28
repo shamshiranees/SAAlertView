@@ -23,9 +23,42 @@ pod 'SAAlertView'
 ```
 ## Usage
 ```swift
+//Alert with title
 SAAlertView.alertView("Alert Title")
+
+//Alert with title and message
 SAAlertView.alertView("Warning", message: "type you message here")
-SAAlertView.alertView("Waring", message: "type your message", buttonTitle: "retry", buttonAction: reload())
+
+//Alert with single button action
+SAAlertView.alertView("Waring", message: "type your message", buttonTitle: "retry", buttonAction: reload)
+
+//Alert with multiple buttons
+SAAlertView.multipleAlertView(title: "Question",message:"select a option",buttonTitles:["a","b","c","d","a","b","c","d"]) { (indexOfButton) in
+if indexOfButton == 0{
+print("a")
+}
+else if indexOfButton == 1{
+print("b")
+}else{
+
+print("button clicked")
+}
+}
+
+//ActionSheet with multiple buttons
+SAAlertView.actionSheet(title: "options",buttonTitles:["a","b","c","d","a","b","c","d"]) { (indexOfButton) in
+if indexOfButton == 0{
+print("a")
+}
+else if indexOfButton == 1{
+print("b")
+}else{
+
+print("button clicked")
+}
+}
+}
+
 ```
 ## Author
 

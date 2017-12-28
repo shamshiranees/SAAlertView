@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		515780C41FF4EC5B00F11383 /* actionSheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 515780C11FF4EC5A00F11383 /* actionSheet.png */; };
+		515780C51FF4EC5B00F11383 /* alert.png in Resources */ = {isa = PBXBuildFile; fileRef = 515780C21FF4EC5A00F11383 /* alert.png */; };
+		515780C61FF4EC5B00F11383 /* multipleButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = 515780C31FF4EC5A00F11383 /* multipleButtons.png */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +34,9 @@
 		1775A0B71C7E8E257A86E6AF /* Pods_SAAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6FBEA2902F2135DAE5C538 /* Pods-SAAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAAlertView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4EC696F7FAE8371BD8546544 /* Pods-SAAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAAlertView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		515780C11FF4EC5A00F11383 /* actionSheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actionSheet.png; sourceTree = "<group>"; };
+		515780C21FF4EC5A00F11383 /* alert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert.png; sourceTree = "<group>"; };
+		515780C31FF4EC5A00F11383 /* multipleButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multipleButtons.png; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SAAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +47,12 @@
 		607FACE51AFB9204008FA782 /* SAAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65705169C5DA76644EE7DBD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8F615BFE716F392A3F08B68F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		65705169C5DA76644EE7DBD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F615BFE716F392A3F08B68F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9EB1407A40A4E8316BD1F2B1 /* Pods-SAAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAAlertView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAAlertView_Example/Pods-SAAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A0D93AD0FB1BEB4F037F97C9 /* Pods-SAAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SAAlertView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SAAlertView_Tests/Pods-SAAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1B38B1CB1FF17C10D932BB3 /* Pods_SAAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SAAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF7037F8C9C50170C3143555 /* SAAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SAAlertView.podspec; path = ../SAAlertView.podspec; sourceTree = "<group>"; };
+		EF7037F8C9C50170C3143555 /* SAAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SAAlertView.podspec; path = ../SAAlertView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				515780C11FF4EC5A00F11383 /* actionSheet.png */,
+				515780C21FF4EC5A00F11383 /* alert.png */,
+				515780C31FF4EC5A00F11383 /* multipleButtons.png */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -248,7 +257,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				515780C51FF4EC5B00F11383 /* alert.png in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				515780C41FF4EC5B00F11383 /* actionSheet.png in Resources */,
+				515780C61FF4EC5B00F11383 /* multipleButtons.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -518,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SAAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -533,6 +546,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SAAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
