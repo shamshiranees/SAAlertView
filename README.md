@@ -1,6 +1,6 @@
 # SAAlertView
 
-[![CI Status](http://img.shields.io/travis/smzranz@gmail.com/SAAlertView.svg?style=flat)](https://travis-ci.org/smzranz@gmail.com/SAAlertView)
+[![CI Status](http://img.shields.io/travis/shamshiranees/SAAlertView.svg?style=flat)](https://travis-ci.org/shamshiranees/SAAlertView)
 [![Version](https://img.shields.io/cocoapods/v/SAAlertView.svg?style=flat)](http://cocoapods.org/pods/SAAlertView)
 [![License](https://img.shields.io/cocoapods/l/SAAlertView.svg?style=flat)](http://cocoapods.org/pods/SAAlertView)
 [![Platform](https://img.shields.io/cocoapods/p/SAAlertView.svg?style=flat)](http://cocoapods.org/pods/SAAlertView)
